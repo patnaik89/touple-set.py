@@ -59,3 +59,6 @@ tuple2 = ('book','pen')
 tuple3 = (tuple1,tuple2)
 print(tuple3)
 
+#Creating the Nested Tuple
+nested_tuple=((0,2,3),(1,2,3),("a","b","c"))
+print("Printing the nested Tuples",nested_tuple)
