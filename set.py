@@ -34,3 +34,14 @@ print(A.union(B))
 print(B.union(A))
 {'d', 'a', 'c', 'e'}     # output
  
+# A+B
+A = {"apple","orange","cherry"}
+B = {"banana"}
+A.add("banana")
+print(A)
+
+# B+A
+A = {"orange"}
+B = {"apple","cherry","banana"}
+B.add("orange")
+print(B)
