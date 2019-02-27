@@ -45,3 +45,17 @@ A = {"orange"}
 B = {"apple","cherry","banana"}
 B.add("orange")
 print(B)
+
+
+# create tuple
+
+thistuple = ("apple", "banana", "cherry")
+print(thistuple)
+
+
+# create nested tuple
+tuple1 = (0,1,2,3)
+tuple2 = ('book','pen')
+tuple3 = (tuple1,tuple2)
+print(tuple3)
+
